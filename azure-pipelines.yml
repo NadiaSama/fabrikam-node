@@ -44,7 +44,9 @@ stages:
       vmImage: 'Ubuntu-16.04'
     environment:
       name: VultrJapan
-      resourceType: VirtualMachine
+      resourceType: virtualMachine
+      tags: japan
+
     strategy:
       runOnce:
         deploy:
