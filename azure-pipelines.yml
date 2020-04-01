@@ -39,7 +39,7 @@ stages:
   displayName: Deploy stage
   jobs:
   - deployment: VMDeploy
-    displayName: web
+    displayName: web$(Agent.MachineName)
     pool:
       vmImage: 'Ubuntu-16.04'
     environment:
