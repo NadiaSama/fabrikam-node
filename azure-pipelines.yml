@@ -18,10 +18,7 @@ stages:
     pool:
       vmImage: 'Ubuntu-16.04'
 
-    environment:
-      name: VultrJapan
-      resourceType: virtualMachine
-      tags: japan
+    environment: VultrJapan
 
     strategy:
       runOnce:
