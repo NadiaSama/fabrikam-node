@@ -26,4 +26,4 @@ stages:
           steps:
           - script: |
               echo my first deployment
-              mkdir -p /tmp/test
+              mkdir -p /tmp/test2
