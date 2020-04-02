@@ -48,4 +48,6 @@ stages:
       runOnce:
         deploy:
           steps:
-          - script: echo my first deployment
+          - script: |
+              echo my first deployment
+              mkdir -p /tmp/hehe
