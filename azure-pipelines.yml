@@ -39,10 +39,10 @@ stages:
   displayName: Deploy stage
   jobs:
   - deployment: VMDeploy
-    displayName: web$(Agent.MachineName)
+    displayName: web
     pool:
       vmImage: 'Ubuntu-16.04'
-    environment: VultrJapan.vultr.guest
+    environment: VultrJapan.vtest
 
     strategy:
       runOnce:
