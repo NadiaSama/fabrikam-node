@@ -42,7 +42,11 @@ stages:
     displayName: web
     pool:
       vmImage: 'Ubuntu-16.04'
-    environment: VultrJapan.vtest
+
+    environment:
+      name: VultrJapan
+      resourceType: virtualMachine
+      tags: japan
 
     strategy:
       runOnce:
@@ -50,4 +54,4 @@ stages:
           steps:
           - script: |
               echo my first deployment
-              mkdir -p /tmp/hehe
+              mkdir -p /tmp/hehea
