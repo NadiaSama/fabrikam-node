@@ -40,6 +40,7 @@ stages:
           - task: DownloadPipelineArtifact@2
             inputs:
               path: /tmp
+              artifact: s.py
 
           - script: |
               echo my first deployment
