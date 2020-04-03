@@ -42,4 +42,4 @@ stages:
 
           - script: |
               echo my first deployment
-              python s.py
+              python /tmp/s.py
