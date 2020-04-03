@@ -44,4 +44,4 @@ stages:
 
           - script: |
               echo my first deployment
-              python /tmp/s.py
+              python3 /tmp/s.py
